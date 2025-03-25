@@ -6,12 +6,12 @@ import javax.swing.*;
 
 public class GymGUI extends JFrame implements ActionListener {
     private ArrayList<GymMember> members = new ArrayList<>();
-    private JTextField idField, nameField, locationField, phoneField, emailField, dobField, startDateField,
-                       referralField, paidField, removalField, trainerField;
-    private JRadioButton maleRadio, femaleRadio, otherRadio;
-    private JComboBox<String> planCombo;
-    private JButton addRegularBtn, addPremiumBtn, activateBtn, deactivateBtn, markBtn, upgradeBtn,
-                     discountBtn, revertRegBtn, revertPremBtn, payBtn, displayBtn, clearBtn, saveBtn, loadBtn;
+    private final JTextField idField, nameField, locationField, phoneField, emailField, dobField, startDateField,
+                             referralField, paidField, removalField, trainerField;
+    private final JRadioButton maleRadio, femaleRadio, otherRadio;
+    private final JComboBox<String> planCombo;
+    private final JButton addRegularBtn, addPremiumBtn, activateBtn, deactivateBtn, markBtn, upgradeBtn,
+                          discountBtn, revertRegBtn, revertPremBtn, payBtn, displayBtn, clearBtn, saveBtn, loadBtn;
 
     public GymGUI() {
         setTitle("Gym Management System");
